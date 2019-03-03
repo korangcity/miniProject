@@ -1,0 +1,58 @@
+@font-face{
+    font-family:Parastoo;
+    src:url("../fonts/parastoo-font-v1.0.0-alpha5/web/Parastoo.eot");
+    src:url("../fonts/parastoo-font-v1.0.0-alpha5/web/Parastoo.eot?#iefix") format('Parastoo-opentype'),
+    url("../fonts/parastoo-font-v1.0.0-alpha5/web/Parastoo.woff") format("woff"),
+    url("../fonts/parastoo-font-v1.0.0-alpha5/web/Parastoo.ttf") format("truetype");
+    font-wight:normal;
+    font-style:normal;
+
+}
+@font-face{
+    font-family:Parastoo-FD-WOL;
+    src:url("../fonts/parastoo-font-v1.0.0-alpha5/web/Farsi-Digits-Without-Latin/Parastoo-FD-WOL.eot");
+    src:url("../fonts/parastoo-font-v1.0.0-alpha5/web/Farsi-Digits-Without-Latin/Parastoo-FD-WOL.eot?#iefix") format('Parastoo-FD-WOL-opentype'),
+    url("../fonts/parastoo-font-v1.0.0-alpha5/web/Farsi-Digits-Without-Latin/Parastoo-FD-WOL.woff") format("woff"),
+    url("../fonts/parastoo-font-v1.0.0-alpha5/web/Farsi-Digits-Without-Latin/Parastoo-FD-WOL.ttf") format("truetype");
+    font-wight:normal;
+    font-style:normal;
+
+}
+
+body{
+    font:16px Parastoo;
+}
+nav div ul li a{
+    font:bold 1rem Parastoo;
+}
+.footer{
+   text-align: center;
+    padding: 1.6rem 1rem;
+    background:#7bdcb5;
+    position:absolute;
+    bottom:0;
+    width:98%;
+
+}
+
+.perNum{
+    font:1rem Parastoo-FD-WOL;
+
+}
+.rtlResult{
+    text-align: center;
+}
+
+#newLRep, #newLPro,#chkRep,#chkPro,#chkProDel,#chkRepDel,#chkRepEmp,#chkProEmp{
+    cursor: pointer;
+}
+#repIdd,#proIdd,#proDel,#repDel,#repEmp,#proEmp{
+    display:none;
+}
+
+
+
+
+
+
+
